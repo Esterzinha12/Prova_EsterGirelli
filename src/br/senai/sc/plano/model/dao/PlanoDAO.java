@@ -91,7 +91,7 @@ public class PlanoDAO {
                 if(resultSet.next()){
                     return extrairObjeto(resultSet);
                 }else{
-                    throw new RuntimeException("Erro na preparação do comando sql 1");
+                    throw new ErroExecucao();
                 }
             } catch (Exception e) {
                 throw new ErroExecucao();

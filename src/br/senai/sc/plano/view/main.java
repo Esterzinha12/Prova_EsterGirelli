@@ -5,8 +5,6 @@ import Exceptions.ErroExecucao;
 import Exceptions.ErroTratamento;
 import br.senai.sc.plano.controller.PlanoController;
 import br.senai.sc.plano.model.entities.Plano;
-
-import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
